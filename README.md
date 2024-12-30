@@ -25,7 +25,7 @@ git clone https://github.com/Stay03/codescribe.git
 ### Basic Usage
 
 ```bash
-python run.py
+python codescribe/run.py
 ```
 
 Then use it in your code:
@@ -33,8 +33,8 @@ Then use it in your code:
 ```python
 extractor = CodebaseExtractor(
     base_directory="./your/project/path",
-    output_file="codebase_snapshot.md",
-    config_file="codebase_config.json"
+    output_file="codescribe/codebase_snapshot.md",
+    config_file="codescribe/codebase_config.json"
 )
 extractor.extract()
 ```

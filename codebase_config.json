@@ -1,5 +1,5 @@
 {
-    "ignore_patterns": ["extractor.py", "__init__.py", "__pycache__", "env", "venv", "setup.py", ".git", "app.py", "codebase_snapshot.md", "codebase_config.json", "LICENSE", "README.md"],
+    "ignore_patterns": ["codescribe", "env", "venv", ".git"],
     "ignore_extensions": [".log", ".tmp", ".gitignore"],
     "list_only_extensions": [".png",".jpg",".jpeg",".gif",".ico",".svg",".db",".sqlite",".pdf",".zip"],
     "max_file_size_mb": 5
