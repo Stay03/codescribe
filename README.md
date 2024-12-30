@@ -28,7 +28,9 @@ git clone https://github.com/Stay03/codescribe.git
 python codescribe/run.py
 ```
 
-Then use it in your code:
+This will automatically create a codebase_snapshot.md file in your project directory containing all your codebase's documentation.
+
+You can also use it programmatically in your code:
 
 ```python
 extractor = CodebaseExtractor(

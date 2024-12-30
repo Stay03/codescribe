@@ -1,5 +1,5 @@
 {
-    "ignore_patterns": ["codescribe", "env", "venv", ".git"],
+    "ignore_patterns": ["codescribe", "env", "venv", ".git", "codebase_snapshot.md"],
     "ignore_extensions": [".log", ".tmp", ".gitignore"],
     "list_only_extensions": [".png",".jpg",".jpeg",".gif",".ico",".svg",".db",".sqlite",".pdf",".zip"],
     "max_file_size_mb": 5
