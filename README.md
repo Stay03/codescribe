@@ -13,43 +13,19 @@ A powerful tool for extracting and documenting codebases for LLM analysis.
 
 ## Installation
 
-```bash
-pip install codescribe
-```
-
-Or clone and install from source:
+Clone and install from source:
 
 ```bash
 git clone https://github.com/Stay03/codescribe.git
-cd codescribe
-pip install -e .
+
 ```
 
 ## Usage
 
 ### Basic Usage
 
-```python
-from codescribe import CodebaseExtractor
-
-extractor = CodebaseExtractor(
-    base_directory="./your/project/path",
-    output_file="codebase_snapshot.md"
-)
-extractor.extract()
-```
-
-### With Custom Configuration
-
-Create a config file `codebase_config.json`:
-
-```json
-{
-    "ignore_patterns": ["env", "venv", ".git"],
-    "ignore_extensions": [".log", ".tmp"],
-    "list_only_extensions": [".png", ".jpg"],
-    "max_file_size_mb": 10
-}
+```bash
+python run.py
 ```
 
 Then use it in your code:
