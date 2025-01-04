@@ -98,7 +98,7 @@ class CodebaseExtractor:
         """Process and write a single file's content."""
         output_file.write(f"### {relative_path}\n```\n")
         if self._is_list_only(filepath):
-            output_file.write("```\n[Binary file - content not extracted]\n```\n\n")
+            output_file.write("\n[Binary file - content not extracted]\n```\n\n")
             return
             
         try:
